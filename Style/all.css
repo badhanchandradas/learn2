@@ -1,3 +1,15 @@
+/* only for article */
+
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap');
+
+
+.work-sans-font {
+  font-family: "Work Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+}
+
 /* nav bar design */
 nav ul{
     display: flex;
@@ -55,8 +67,21 @@ td ,th{
     }
 
     /* article */
+    
+    .earth-box{
+        text-align: justify;
+        width: 674px;
+        margin: 100px auto;
+      
+    }
+
     .earth a{
         text-decoration: none; 
+        color: rgb(109, 109, 240);
+    }
+    ul a{
+        text-decoration: none;
+        color: black;
     }
     
     .at{
