@@ -23,6 +23,10 @@ nav a{
     text-decoration: none;
     color: black;
 }
+/* nav a:hover{
+    color: rgb(233, 140, 140);
+    border-bottom: 1px solid rgb(233, 140, 140);
+} */
 /* btn design */
 .btn{
     display: flex;
@@ -102,4 +106,5 @@ td ,th{
 
     a:hover{
         color: red;
+        border-bottom: 1px solid rgb(24, 20, 20);
     }
